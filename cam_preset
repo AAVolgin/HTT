@@ -1,0 +1,4 @@
+import requests
+
+response = requests.put('http://admin:A112233445500@172.17.2.30:81/ISAPI/PTZCtrl/channels/1/presets/1/goto')
+print(response.text)
